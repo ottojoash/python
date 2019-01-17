@@ -1,0 +1,75 @@
+body{
+    background-color: brown;
+        text-align: center;
+    min-width: 320;
+}
+#form-outer{
+    background-color: lightcoral;
+    margin: auto;
+    border-radius: 5px;
+    width: 75%;
+    max-width: 900px;
+    padding: 10px;
+    padding-top: 20px;
+}
+h1{
+    text-align: center;
+    font-style: bold;
+}
+p{
+    text-align: center
+}
+.labels{
+    display: inline-block;
+    text-align: right;
+    width: 35%;
+    padding: 10px;
+    vertical-align: bottom;
+    margin-top: 10px;
+}
+.righttab{
+    display: inline-block;
+    text-align: left;
+    width: 35%;
+    vertical-align: middle;
+
+}
+.input-field{
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #grey;
+    border-radius: 2px;
+}
+#submit{
+    background-color: burlywood;
+    border-radius: 4px;
+    color: rgb(1, 4, 7);
+    font-size: 0.5cm;
+    height: 40px;
+    width: 96px;
+    margin: 10px;
+    border: 0px solid;
+}
+.radio{
+    position: relative;
+    left: 10px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+}
+.checkbox{
+    position: relative;
+    left: 10px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+}
+#textarea{
+    height: 50px;
+    width: 50px;
+}
+ul{
+    text-align: inherit;
+}
