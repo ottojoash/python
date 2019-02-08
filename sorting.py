@@ -22,8 +22,9 @@ def list_sort(lista):
                 even.append(i)
 
             else:
+                #odd number
                 odd.append(i)
-
+        #characters
         elif isinstance(i, str):
             characters.append(i)
 
@@ -33,5 +34,5 @@ def list_sort(lista):
     return mydict
 
 
-print(list_sort([1, 3, 5, 'a', 'b']))
+print(list_sort([1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b']))
   
